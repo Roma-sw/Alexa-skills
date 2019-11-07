@@ -1,0 +1,96 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "study time",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "What should I say",
+                        "How to use",
+                        "What should I do",
+                        "How do I do"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "thank you",
+                        "see you",
+                        "Bye bye",
+                        "Good bye"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StudyStartIntent",
+                    "slots": [],
+                    "samples": [
+                        "start study time",
+                        "Let's start studying",
+                        "Let's start study",
+                        "Let's study ",
+                        "I will study",
+                        "I study",
+                        "start study",
+                        "start studying"
+                    ]
+                },
+                {
+                    "name": "StudyStopIntent",
+                    "slots": [],
+                    "samples": [
+                        "finish study time",
+                        "stop study time",
+                        "I finish study",
+                        "Let's finish studying",
+                        "Let's finish study",
+                        "finish studying",
+                        "finish study",
+                        "Let's stop study",
+                        "Let's stop studyying",
+                        "stop studying",
+                        "stop study"
+                    ]
+                },
+                {
+                    "name": "BreakStartIntent",
+                    "slots": [],
+                    "samples": [
+                        "I will rest",
+                        "rest",
+                        "rest myself",
+                        "start a break",
+                        "I'll have a short break",
+                        "I will have a short break",
+                        "I will have a break",
+                        "I'll have a break",
+                        "Have a short break",
+                        "Have a break"
+                    ]
+                },
+                {
+                    "name": "BreakStopIntent",
+                    "slots": [],
+                    "samples": [
+                        "finish breaking",
+                        "finish break",
+                        "end break",
+                        "resume study",
+                        "resume studying",
+                        "restart studying",
+                        "restart study"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
